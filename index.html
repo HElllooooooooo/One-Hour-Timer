@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Hour Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    <h1 id="title">One Hour Timer</h1>
+<h1><span id="minutes">00</span><span>:</span><span id="seconds">00</span></h1>
+
+<div class="myButton">
+<button id="startBtn" >Start</button>
+<button id="stopBtn" onclick="document.getElementById('startBtn').innerHTML='Resume'">Stop</button>
+<button id="Rst" onclick="document.getElementById('startBtn').innerHTML='Start'">Reset</button>
+
+</div>
+</div>
+
+
+    <script src="apps.js"></script>
+<!-- For Only Needs lol -->
+    <!-- <div id="myDIV">Hello</div>
+<p><button onclick="myFunction()">Click Me</button></p>
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "Hello") {
+    x.innerHTML = "<h1> is a heading </h1";
+  } else {
+    x.innerHTML = "Hello";
+  }
+}
+</script> -->
+</body>
+</html>
